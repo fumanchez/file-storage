@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D17D688-D445-4DC4-AB14-5749A51ACDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorage.Api", "src\FileStorage.Api\FileStorage.Api.csproj", "{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700} = {4D17D688-D445-4DC4-AB14-5749A51ACDF0}
 	EndGlobalSection
 EndGlobal
