@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "src\\FileStorage.Api"
+		},
+		{
+			"path": "test\\FileStorage.Api.Tests"
+		}
+	]
+}
