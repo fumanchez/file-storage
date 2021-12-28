@@ -4,10 +4,13 @@
 			"path": "src\\FileStorage.Api"
 		},
 		{
-			"path": "test\\FileStorage.Api.Tests"
+            "path": "test\\FileStorage.Api.Tests"
 		},
 		{
-			"path": "test\\FileStorage.Api.Benchmarks"
-		}
+            "path": "test\\FileStorage.Api.Benchmarks"
+        },
+        {
+            "path": "src\\FileStorage.ConsoleClient"
+        }
 	]
 }
