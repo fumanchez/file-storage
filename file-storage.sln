@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D17D688-D44
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorage.Api", "src\FileStorage.Api\FileStorage.Api.csproj", "{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C7ABCD05-D52A-4FDC-BB25-0128956037EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorage.Api.Tests", "test\FileStorage.Api.Tests\FileStorage.Api.Tests.csproj", "{7BBC8977-32FB-4627-AE05-CBF659411673}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBC8977-32FB-4627-AE05-CBF659411673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBC8977-32FB-4627-AE05-CBF659411673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBC8977-32FB-4627-AE05-CBF659411673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBC8977-32FB-4627-AE05-CBF659411673}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{73ADB3B9-FDE6-4D03-87BE-3A2F9349F700} = {4D17D688-D445-4DC4-AB14-5749A51ACDF0}
+		{7BBC8977-32FB-4627-AE05-CBF659411673} = {C7ABCD05-D52A-4FDC-BB25-0128956037EA}
 	EndGlobalSection
 EndGlobal
