@@ -27,6 +27,6 @@ public class LocalStorage : IStorage
 
         await Task.WhenAll(tasks);
 
-        return new UploadResponce(filePath);
+        return new UploadResponce(filePath, true);
     }
 }
