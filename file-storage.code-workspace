@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "test\\FileStorage.Api.Tests"
+		},
+		{
+			"path": "test\\FileStorage.Api.Benchmarks"
 		}
 	]
 }
